@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Crash logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
