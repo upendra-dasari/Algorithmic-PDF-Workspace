@@ -252,11 +252,6 @@ Potential features for v2:
 - Text annotation boxes
 - Bookmark management
 
-## 📄 License
-
-Free to use for personal and educational purposes.
-
-## 🤝 Contributing
 
 This is a single-developer project. Feel free to fork and modify!
 
