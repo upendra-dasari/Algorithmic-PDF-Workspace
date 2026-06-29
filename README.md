@@ -1,8 +1,8 @@
-# 📄 PDF Editor - Complete Web Application
+#  PDF Editor - Complete Web Application
 
 A fully-featured web-based PDF editor built with vanilla JavaScript, PDF.js, and IndexedDB. No external dependencies like React required!
 
-## 🎯 Features
+##  Features
 
 ### 1. **Browse & Open PDFs**
    - Click the **Browse PDF** button to select PDFs from your computer
@@ -25,12 +25,12 @@ A fully-featured web-based PDF editor built with vanilla JavaScript, PDF.js, and
 ### 4. **Highlighting with Colors**
    - Select text on any PDF page to highlight
    - Choose from 6 color options:
-     - 🟨 Yellow
-     - 🟩 Green
-     - 🟪 Pink
-     - 🟧 Orange
-     - 🟦 Blue
-     - 💖 Light Pink
+     -  Yellow
+     -  Green
+     -  Pink
+     -  Orange
+     -  Blue
+     -  Light Pink
    - **Undo/Redo** support with Ctrl+Z and Ctrl+Y
 
 ### 5. **Short Notes (3/4 Split View)**
@@ -47,7 +47,7 @@ A fully-featured web-based PDF editor built with vanilla JavaScript, PDF.js, and
    - **Ctrl+F** - Open search panel
    - **Enter** in search - Execute search
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 pdf_editor_project/
@@ -75,10 +75,10 @@ pdf_editor_project/
 | Search Algorithm | Knuth-Morris-Pratt (KMP) |
 | Backend | None (fully client-side) |
 
-## 📋 Detailed Workflow
+##  Detailed Workflow
 
 ### Step 1: **Browse and Open PDF**
-1. Click **📁 Browse PDF** button in header
+1. Click ** Browse PDF** button in header
 2. Select a PDF file from your computer
 3. Wait for PDF to load (progress visible)
 4. First page displays automatically
@@ -88,12 +88,12 @@ pdf_editor_project/
 - Use **Previous/Next** buttons to navigate pages
 - View current page indicator (Page X of Y)
 - Use color palette for highlighting:
-  - Click **🖍️ Highlighter** button in sidebar
+  - Click ** Highlighter** button in sidebar
   - Select a color from the palette
   - Select text on PDF - it highlights automatically
 
 ### Step 3: **Search in PDF**
-1. Click **🔍 Search** in sidebar (default active)
+1. Click ** Search** in sidebar (default active)
 2. Type search term in search box
 3. Click **Search** or press Enter
 4. Results appear with:
@@ -104,7 +104,7 @@ pdf_editor_project/
 5. Navigate between results using Previous/Next buttons
 
 ### Step 4: **Take Notes**
-1. Click **📝 Short Notes** in sidebar
+1. Click ** Short Notes** in sidebar
 2. Screen splits: PDF (left) and Notes (right)
 3. Take notes in the text area:
    - Use bullet points (• style)
@@ -115,7 +115,7 @@ pdf_editor_project/
    - Navigates to page with match
 
 ### Step 5: **Highlight Text**
-1. Click **🖍️ Highlighter** button
+1. Click **Highlighter** button
 2. Choose color from palette
 3. Select text on PDF → auto-highlights with chosen color
 4. Highlights persist on that page
@@ -126,13 +126,13 @@ pdf_editor_project/
 - Works across highlights and notes
 
 ### Step 7: **Save Document**
-1. Click **💾 Save** button in header
+1. Click **Save** button in header
 2. All annotations (highlights + notes) save automatically
 3. Document stored with unique ID in IndexedDB
 4. Takes full PDF + all metadata
 
 ### Step 8: **Access Saved Documents**
-1. Click **💾 Storage** in header
+1. Click ** Storage** in header
 2. View all saved documents with:
    - Document name
    - Save date
@@ -141,7 +141,7 @@ pdf_editor_project/
 3. Click **Open** to load document with all annotations
 4. Click **Delete** to permanently remove document
 
-## 🎨 UI Features
+##  UI Features
 
 ### Welcome Screen
 - Features overview with icons
@@ -195,13 +195,13 @@ npx http-server
 ## 💾 Data Persistence
 
 All data is stored locally in **IndexedDB**:
-- ✅ No server required
-- ✅ No cloud storage
-- ✅ Data persists across browser sessions
-- ✅ ~50MB storage per domain (browser dependent)
-- ⚠️ Data lost if browser cache is cleared
+-  No server required
+-  No cloud storage
+-  Data persists across browser sessions
+-  ~50MB storage per domain (browser dependent)
+-  Data lost if browser cache is cleared
 
-## 🎯 Algorithm Details
+##  Algorithm Details
 
 ### KMP Search Algorithm
 ```javascript
@@ -216,14 +216,14 @@ All data is stored locally in **IndexedDB**:
 - Supports highlights and notes modifications
 - Clear history on document load
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The application is fully responsive:
 - Desktop: Full features with sidebar
 - Tablet: Adjusted layout with stacked panels
 - Mobile: Optimized for smaller screens
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### PDF not loading?
 - Check file format (must be valid PDF)
@@ -240,7 +240,7 @@ The application is fully responsive:
 - Check for special characters
 - Ensure PDF has selectable text (not scanned image)
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 Potential features for v2:
 - PDF export with annotations
