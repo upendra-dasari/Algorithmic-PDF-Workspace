@@ -256,5 +256,3 @@ Potential features for v2:
 This is a single-developer project. Feel free to fork and modify!
 
 ---
-
-**Made with ❤️ using Vanilla JavaScript** | No frameworks • No build tools • Pure browser power!
