@@ -64,7 +64,7 @@ pdf_editor_project/
 └── README.md              # This file
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 |-----------|------------|
